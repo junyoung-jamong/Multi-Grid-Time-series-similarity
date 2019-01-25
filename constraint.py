@@ -13,7 +13,14 @@ class MyConstraint(Constraint):
         self.axis = axis
 
     def __call__(self, w):
-        w *= K.cast(K.greater_equal(w, 0.), K.floatx())
+        '''
+        #softmax
+        e = K.exp(w - K.max(w,  axis=self.axis, keepdims=True))
+        s = K.sum(e,  axis=self.axis, keepdims=True)
+        return e / s
+        '''
+
+        w *= K.cast(K.greater_equal(w, 0.), K.floatx())  # non negative
         return w / K.sum(w, axis=self.axis, keepdims=True)
 
     def get_config(self):

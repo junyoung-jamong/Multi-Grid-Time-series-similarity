@@ -6,12 +6,11 @@ class DoubletLossLayer(layers.Layer):
         self.alpha = alpha
         super(DoubletLossLayer, self).__init__(**kwargs)
 
-    def triplet_loss(self, inputs):
+    def doublet_loss(self, inputs):
         positive_dist, negative_dist = inputs
-        max = K.maximum(positive_dist, negative_dist)
-        return K.sum(K.maximum(positive_dist/max - negative_dist/max + self.alpha, 0), axis=0)
+        return K.sum(K.maximum(positive_dist - negative_dist + self.alpha, 0), axis=0)
 
     def call(self, inputs):
-        loss = self.triplet_loss(inputs)
+        loss = self.doublet_loss(inputs)
         self.add_loss(loss)
         return loss

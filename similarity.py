@@ -13,6 +13,19 @@ def GMED(gm1, gm2):
             sum += d * d
     return math.sqrt(sum)
 
+def Normalized_GMED(gm1, gm2):
+    sum = 0
+
+    m = len(gm1)
+    n = len(gm1[0])
+
+    for i in range(m):
+        for j in range(n):
+            d = gm1[i][j] - gm2[i][j]
+            sum += d * d
+    sum = sum/(m*n)
+    return math.sqrt(sum)
+
 
 def GMDTW(gm1, gm2):
     len1 = len(gm1)

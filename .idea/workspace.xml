@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/Experiments_Multi_Grid_Weighted_Similarity.py" line="124" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3bc2e29c-6438-4cd6-a402-0fdecb4f7a4f" name="Default" comment="" />
+    <list default="true" id="3bc2e29c-6438-4cd6-a402-0fdecb4f7a4f" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Experiments_Multi_Grid_Weighted_Similarity.py" beforeDir="false" afterPath="$PROJECT_DIR$/Experiments_Multi_Grid_Weighted_Similarity.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/constraint.py" beforeDir="false" afterPath="$PROJECT_DIR$/constraint.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/losses.py" beforeDir="false" afterPath="$PROJECT_DIR$/losses.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/similarity.py" beforeDir="false" afterPath="$PROJECT_DIR$/similarity.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,12 +19,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="losses.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/losses.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="53" lean-forward="true" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+            <state relative-caret-position="57">
+              <caret line="3" column="22" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="22" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -26,8 +35,8 @@
       <file leaf-file-name="Experiments_Multi_Grid_Weighted_Similarity.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Experiments_Multi_Grid_Weighted_Similarity.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="130" column="46" lean-forward="true" selection-start-line="130" selection-start-column="46" selection-end-line="130" selection-end-column="46" />
+            <state relative-caret-position="810">
+              <caret line="74" column="47" lean-forward="true" selection-start-line="74" selection-start-column="47" selection-end-line="74" selection-end-column="47" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -38,8 +47,20 @@
       <file leaf-file-name="constraint.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/constraint.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+            <state relative-caret-position="418">
+              <caret line="22" column="71" selection-start-line="22" selection-start-column="71" selection-end-line="22" selection-end-column="71" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Experiments_Multi_Grid_Similarity.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Experiments_Multi_Grid_Similarity.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="582">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -67,7 +88,17 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>min_dist</find>
+      <find>GMED</find>
+      <find>doublet</find>
+      <find>alpha</find>
+      <find>epochs</find>
+      <find>Epoch 1/200</find>
+      <find>thrsho</find>
       <find>doublet_generator</find>
+      <find>DoubletLossLayer</find>
+      <find>build_model</find>
+      <find>batch_</find>
+      <find>epo</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -77,15 +108,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/utils.py" />
-        <option value="$PROJECT_DIR$/similarity.py" />
         <option value="$PROJECT_DIR$/Experiments_Grid_Matrix_Toy_Example.py" />
         <option value="$PROJECT_DIR$/Exp_test.ipynb" />
         <option value="$PROJECT_DIR$/Experiments_Grid_Matrix_Toy_example.ipynb" />
         <option value="$PROJECT_DIR$/files.py" />
         <option value="$PROJECT_DIR$/grid.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/similarity.py" />
         <option value="$PROJECT_DIR$/Experiments_Multi_Grid_Similarity.py" />
         <option value="$PROJECT_DIR$/losses.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/constraint.py" />
         <option value="$PROJECT_DIR$/Experiments_Multi_Grid_Weighted_Similarity.py" />
       </list>
@@ -105,7 +136,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -117,7 +147,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="C:/junyoung-jamong.github.io" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -216,23 +250,23 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.07744995" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1264489" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.17230098" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2857143" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -244,57 +278,43 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Exp_test.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Experiments_Grid_Matrix_Toy_Example.py">
+    <entry file="file://$PROJECT_DIR$/losses.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="21" />
+        <state relative-caret-position="171">
+          <caret line="10" column="53" lean-forward="true" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
           <folding>
-            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grid.py">
+    <entry file="file://$PROJECT_DIR$/constraint.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="266">
+          <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Experiments_Multi_Grid_Weighted_Similarity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2299">
+          <caret line="130" column="46" lean-forward="true" selection-start-line="130" selection-start-column="46" selection-end-line="130" selection-end-column="46" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/files.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="16" lean-forward="true" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/similarity.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Exp_test.ipynb" />
+    <entry file="file://$PROJECT_DIR$/Experiments_Grid_Matrix_Toy_Example.py" />
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/keras/engine/training_utils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
@@ -309,13 +329,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Experiments_Multi_Grid_Similarity.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -326,35 +344,71 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="16" lean-forward="true" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grid.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/similarity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/losses.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="53" lean-forward="true" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+        <state relative-caret-position="57">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="22" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/Experiments_Multi_Grid_Similarity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="582">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/constraint.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        <state relative-caret-position="418">
+          <caret line="22" column="71" selection-start-line="22" selection-start-column="71" selection-end-line="22" selection-end-column="71" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Experiments_Multi_Grid_Weighted_Similarity.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="130" column="46" lean-forward="true" selection-start-line="130" selection-start-column="46" selection-end-line="130" selection-end-column="46" />
+        <state relative-caret-position="810">
+          <caret line="74" column="47" lean-forward="true" selection-start-line="74" selection-start-column="47" selection-end-line="74" selection-end-column="47" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
